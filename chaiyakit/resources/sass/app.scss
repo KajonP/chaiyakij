@@ -1,0 +1,26 @@
+// Fonts
+@font-face{
+    font-family: Sarabun;
+    src: url('/assets/fonts/Sarabun-Regular.ttf');
+}
+@font-face{
+    font-family: Sarabun-bold;
+    src: url('/assets/fonts/Sarabun-Bold.ttf');
+}
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'style/index';
+@import 'style/indexcus';
+@import 'style/product';
+@import 'style/table';
+@import 'style/breadcrumb ';
+@import 'style/order';
+@import 'style/loading';
+
+@import 'style/delivery/calendar';
+@import 'style/delivery/list_detail';
+
+@import 'style/claim/calendar';
+@import 'style/claim/list_detail';

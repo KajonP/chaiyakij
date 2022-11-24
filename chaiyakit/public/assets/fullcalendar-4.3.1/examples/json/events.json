@@ -1,0 +1,30 @@
+[
+  {
+    "title": "All Day Event",
+    "start": "2020-02-01",
+    "color": "#27C671"
+  },
+  {
+    "title": "Long Event",
+    "start": "2020-02-03 00:00:00",
+    "end": "2020-02-04 23:59:59",
+    "color": "#0095DD"
+  },
+  {
+    "groupId": 999,
+    "title": "Repeating Event",
+    "start": "2020-02-07",
+    "color": "#FFC627"
+  },
+  {
+    "groupId": 999,
+    "title": "Repeating Event",
+    "start": "2020-02-09",
+    "color": "#D01717"
+  },
+  {
+    "title": "Click for Google",
+    "url": "http://google.com/",
+    "start": "2020-02-11"
+  }
+]
