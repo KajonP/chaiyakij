@@ -203,6 +203,8 @@ Route::group(['middleware' => ['auth']], function () {
             Route::get('/report_claim', 'Report\ReportController@reportClaim')->name('report_claim');
             Route::get('/report_total', 'Report\ReportController@reportTotal')->name('report_total');
             Route::get('/report_transaction', 'Report\ReportController@reportTransaction')->name('report_transaction');
+            Route::get('/report_per_sale', 'Report\ReportController@reportPerSale')->name('report_per_sale');
+
         });
     });
 

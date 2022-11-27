@@ -79,6 +79,11 @@
                         title="ยอดขายตาม transaction"><i class="fas fa-circle mr-1" style="font-size:7px"></i><label
                             style="font-size: 14px"> ยอดขายตาม transaction</label></a>
                 </li>
+				<li class="{{ Request::is('report/report_per_sale*') ? 'active' : '' }}">
+                    <a href="{{ route('report_per_sale') }}" rel="tooltip" data-placement="right"
+                        title="ยอดขายตาม transaction"><i class="fas fa-circle mr-1" style="font-size:7px"></i><label
+                            style="font-size: 14px"> ยอดขายตาม Sale</label></a>
+                </li>
             </ul>
         </li>
         @endhasanyrole

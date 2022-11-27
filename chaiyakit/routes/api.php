@@ -94,6 +94,8 @@ Route::group(['middleware' => ['auth']], function () {
         Route::get('/claim/list', 'Report\ReportController@claimList')->name('api:report:claim:list');
         Route::get('/total/list', 'Report\ReportController@totalList')->name('api:report:total:list');
         Route::get('/transaction/list', 'Report\ReportController@transactionList')->name('api:report:transaction:list');
+		Route::get('/per_sale/list', 'Report\ReportController@perSaleList')->name('api:report:per_sale:list');
+
     });
 
     Route::prefix('itemsend')->group(function () {
